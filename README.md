@@ -6,6 +6,7 @@ Instructions are loaded from file and results are output to the screen. Any numb
 Examples of the calculator lifecycle might be: Example 1. [Input from file] add 2 multiply 3 apply 3 [Output to screen] 15
 
 IMPORTANT NOTES !
+
 In the project is referenced a library FileHelpers (https://www.nuget.org/packages/FileHelpers/). FileHelpers is open source library for automatic formatted file read/write operations (more info www.filehelpers.net)
 
 To install FileHelpers library, run this command in the Package Manager Console : Install-Package FileHelpers -Version 3.4.1
