@@ -4,11 +4,12 @@ Calculates a result from a set of instructions loaded from a text file, please r
 Instructions are loaded from file and results are output to the screen. Any number of Instructions can be specified. Instructions can be any binary operators of your choice (e.g., add, divide, subtract, multiply etc). The instructions will ignore mathematical precedence. The last instruction should be “apply” and a number (e.g., “apply 3”). The calculator is then initialised with that number and the previous instructions are applied to that number.
 
 Examples of the calculator lifecycle might be:
+
 [Input from file] 
 add 2 
 multiply 3 
-apply 3 
-[Output to screen] 
+apply 3
+[Output to screen]
 15
 
 IMPORTANT NOTES !
@@ -17,7 +18,8 @@ In the project is referenced a library FileHelpers (https://www.nuget.org/packag
 
 To install FileHelpers library, run this command in the Package Manager Console : Install-Package FileHelpers -Version 3.4.1
 
-To run Calculator application in the project, go to Project -> Calculator Properties -> Debug -> Command line arguments , specify path to file containing instructions,ex. D:\Data.txt Example of instructions in Data.txt file
+To run Calculator application in the project, go to Project -> Calculator Properties -> Debug -> Command line arguments , specify path to file containing instructions,ex. D:\Data.txt (such a file was added into the solution). 
+Example of instructions in Data.txt file
 
 add 20 
 multiply 2 
