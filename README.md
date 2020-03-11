@@ -18,7 +18,7 @@ In the project is referenced a library FileHelpers (https://www.nuget.org/packag
 
 To install FileHelpers library, run this command in the Package Manager Console : Install-Package FileHelpers -Version 3.4.1
 
-To run Calculator application in the project, go to Project -> Calculator Properties -> Debug -> Command line arguments , specify path to file containing instructions,ex. D:\Data.txt (such a file was added into the solution). 
+To run Calculator application in the project, go to Project -> Calculator Properties -> Debug -> Command line arguments , specify path to file containing instructions,ex. D:\Data.txt (such a file was added into the solution, folder Data). 
 Example of instructions in Data.txt file
 
 add 20 
